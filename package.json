@@ -1,6 +1,6 @@
 {
   "name": "range-hourday-picker.js",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Javascript Library for Hour Day Picker",
   "main": "range-hourday-picker.js",
   "repository": "https://github.com/verzth/range-hourday-picker.js",
