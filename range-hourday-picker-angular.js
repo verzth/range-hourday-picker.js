@@ -1,6 +1,6 @@
 (function ($,angular) {
     angular.module('rangeHourdayPicker',[])
-        .directive('rangeHourdayPicker',function () {
+        .directive('rangehourdaypicker',function () {
             return {
                 restrict : 'C',
                 scope : {
