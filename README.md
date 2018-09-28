@@ -2,12 +2,13 @@
 Javascript Library for Hour Day Picker
 
 
-How to Use :
-1. Add script range-hourday-picker.js in your HTML head or body.
-2. Add stylesheet range-hourday-picker.css in your HTML head or body, if you want to override stylesheet,
+### How to Use :
+1. Add script **range-hourday-picker.js** in your HTML head or body.
+2. Add stylesheet **range-hourday-picker.css** in your HTML head or body, if you want to override stylesheet,
    just go with your code.
-3. Use RangeHourdayPicker to create range-hourday-picker object, you can pass options paramater.
+3. Use **RangeHourdayPicker** to create range-hourday-picker object, you can pass options paramater.
 4. Option List :
+   ```
    {
         id : '', // Use string to custom Rhdp class.
         days : [0,1,2,3,4,5,6], // Values for day
@@ -16,10 +17,12 @@ How to Use :
         debug : false, // By default debug is off, when you set debug true (turn on debug) it will print debug info in browser console.
         callback : function(){} // It will called when the picker changed
    }
+   ```
 5. Rhdp provide two function:
    - setValues(values) : It used for change the rhdp values. When you set values, it will automatically update the view.
    - getValues() : It used to get the current rhdp values.
 6. Sample values.
+   ```
    {
         "0" : [
             {
@@ -41,10 +44,10 @@ How to Use :
             }
         ]
    }
-
-7. Rhdp provide built-in module for angular ^1.6, you can add range-hourday-picker-angular.js on your script.
+   ```
+7. Rhdp provide built-in module for [angular ^1.6](https://angularjs.org/), you can add range-hourday-picker-angular.js on your script.
    For usage look our sample below:
-
+   ```
    <script>
 
    ......
@@ -52,12 +55,15 @@ How to Use :
    ......
 
    </script>
-
+   ```
    In your HTML file.
 
    Single RHDP:
+   ```
    <div class="rangehourdaypicker" ng-rhdp="rhdpOptions" ng-model="data"></div>
-
+   ```
    Multiple RHDP:
+   ```
    <div class="rangehourdaypicker" id="one" ng-rhdp="rhdpOptions" ng-model="data1"></div>
    <div class="rangehourdaypicker" id="two" ng-rhdp="rhdpOptions" ng-model="data2"></div>
+   ```
