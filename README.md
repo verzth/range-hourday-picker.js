@@ -10,7 +10,7 @@ Javascript Library for Hour Day Picker
 4. Option List :
    ```
    {
-        id : '', // Use string to custom Rhdp class.
+        id : '', // Use string to custom Rhdp id, please provide # in front of your id ex. '#one'.
         days : [0,1,2,3,4,5,6], // Values for day
         day_names : ['Senin','Selasa','Rabu','Kamis','Jumat','Sabtu','Minggu'], // Day names, by default using Indonesian Day name, start from Monday.
         hours : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23], // You can set 0 to 23 or 1 to 24, based on your need.
@@ -45,7 +45,7 @@ Javascript Library for Hour Day Picker
         ]
    }
    ```
-7. Rhdp provide built-in module for [angular ^1.6](https://angularjs.org/), you can add range-hourday-picker-angular.js on your script.
+7. Rhdp provide built-in module for [angular ^1.6](https://angularjs.org/), you can add **range-hourday-picker-angular.js** on your script.
    For usage look our sample below:
    ```
    <script>
