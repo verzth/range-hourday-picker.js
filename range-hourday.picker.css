@@ -1,0 +1,43 @@
+.rangehourdaypicker{
+    display: inline-block;
+}
+
+.rangehourdaypicker .rhdp-day-name{
+    border-style:solid;
+    border-color: black;
+    border-width: 0 1px 0 0;
+}
+
+.rangehourdaypicker .rhdp-day{
+    border-style:solid;
+    border-color: black;
+    border-width: 1px 1px 0;
+}
+.rangehourdaypicker .rhdp-day:first-child{
+    border-width: 1px 1px 0;
+}
+.rangehourdaypicker .rhdp-day:last-child{
+    border-width: 1px;
+}
+.rangehourdaypicker .rhdp-day>.rhdp-day-name{
+    width: 100px;
+    display: inline-block;
+    padding: 5px;
+    background: #252525;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.rangehourdaypicker .rhdp-day>.rhdp-hour{
+    display: inline-block;
+    width: 20px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    background: #cd5d5d;
+}
+
+.rangehourdaypicker .rhdp-day>.rhdp-hour.active{
+    background: limegreen;
+}
